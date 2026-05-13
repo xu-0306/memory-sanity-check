@@ -1,0 +1,4 @@
+interface:
+  display_name: "Memory Sanity Check"
+  short_description: "Prevent prior context from over-anchoring decisions."
+  default_prompt: "Use memory-sanity-check to review prior context as an evidence bundle, compare it against current source-of-truth evidence, and identify simple baselines or independent alternatives before committing to a direction."
